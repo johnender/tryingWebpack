@@ -90,3 +90,10 @@ npm install -D clean-webpack-plugin
 Or
 
 yarn add -D clean-webpack-plugin
+
+
+To work on netlify the build command should be
+
+"build": "node ./scripts/create-env.js && webpack --mode production --config webpack.config.js",
+
+But that command broke the local compilation (undefine the .env)

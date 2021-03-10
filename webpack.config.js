@@ -70,7 +70,7 @@ module.exports = {
             // EL NOMBRE INICIAL DEL ARCHIVO + SU EXTENSIÓN
             // PUEDES AGREGARLE [name]hola.[ext] y el output del archivo seria 
             // ubuntu-regularhola.woff
-            outputPath: '../assets/fonts/', 
+            outputPath: './assets/fonts/', 
             // EL DIRECTORIO DE SALIDA (SIN COMPLICACIONES)
             publicPath: '../assets/fonts/',
             // EL DIRECTORIO PUBLICO (SIN COMPLICACIONES)
